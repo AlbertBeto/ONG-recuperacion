@@ -1,8 +1,11 @@
 import java.math.BigInteger;
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.Locale;
 
 public class Person {
     private String document;
@@ -12,7 +15,7 @@ public class Person {
     private String gender;
     private double weight;
     private String cp;
-    private Date birthday;
+    private LocalDate birthday;
 
     public Person(String persona) {
         String[] personaDesglosada = persona.split(";");
@@ -63,11 +66,12 @@ public class Person {
 
         //Vamos a guardar la fecha de cumpleaños como atributo Date.
         //Primero montamos el formato de Date con el que vamos a trabajar.
-        SimpleDateFormat myFormatObj = new SimpleDateFormat("dd-MM-yyyy");
-        //Me he visto obligado a montar un try catch por el parse, ha sido la única manera de quitarle el error.
-        //Le doy valor a birthday con el formato preestablecido y convirtiendo el String en Date.
+        DateTimeFormatter formatoEuropa = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-           this.birthday  = myFormatObj.parse(personaDesglosada[7]);
+        //Le doy valor a birthday con el formato preestablecido y convirtiendo el String en LocalDate.
+        //EEEEEEEEEEEERRRRRRRRRRRRROOOOOOOORRRRRRRRRRRR - IMPRIME EL FORMATO USA
+        LocalDate fecha = LocalDate.parse(personaDesglosada[7],formatoEuropa);
+           this.birthday  = fecha;
 
         //CONSTRUCTOR
     }
@@ -104,7 +108,7 @@ public class Person {
         return cp;
     }
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 
