@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dcacb9e-ce00-4094-91ca-27e8856ea9be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+    <list default="true" id="3dcacb9e-ce00-4094-91ca-27e8856ea9be" name="Changes" comment="Todo solucionado falta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682296353697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Todo solucionado falta">
+      <created>1682349748332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682349748332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,6 +105,7 @@
     <MESSAGE value="Acabado el primer metodo pero da error el tema Date del birthday." />
     <MESSAGE value="El Date funciona pero al sacar el dato el formato es el USA incluso habiendole cambiado el formato. Lo dejo de momento y voy a intentar avanzar con el punto 4" />
     <MESSAGE value="Creado el DonationManager. Falta ver lo de la impresión formato USA de la fecha de nacimiento y acabar de cuadrar en el DonationManager de si no es la persona no imprima si es mayor de edad." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado el DonationManager. Falta ver lo de la impresión formato USA de la fecha de nacimiento y acabar de cuadrar en el DonationManager de si no es la persona no imprima si es mayor de edad." />
+    <MESSAGE value="Todo solucionado falta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo solucionado falta" />
   </component>
 </project>
