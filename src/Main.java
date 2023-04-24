@@ -20,6 +20,7 @@ public class Main {
 
 DonationManager lo = new DonationManager();
 lo.verifyDonation(laPrimera,elPrimero);
+        System.out.println(elPrimero.getBirthdayPrint());
 
     }
 }

@@ -68,7 +68,6 @@ public class Person {
         //Primero montamos el formato de Date con el que vamos a trabajar.
         DateTimeFormatter formatoEuropa = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         //Le doy valor a birthday con el formato preestablecido y convirtiendo el String en LocalDate.
-        //EEEEEEEEEEEERRRRRRRRRRRRROOOOOOOORRRRRRRRRRRR - IMPRIME EL FORMATO USA
         LocalDate fecha = LocalDate.parse(personaDesglosada[7],formatoEuropa);
         //Date fechaCumple = (Date)formatoEuropa.parse(personaDesglosada[7]);
            this.birthday  = fecha;
@@ -109,7 +108,12 @@ public class Person {
     }
 
     public LocalDate getBirthday() {
-        return birthday;
+                return birthday;
+    }
+
+    public String getBirthdayPrint() {
+        String cumple = birthday.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        return cumple;
     }
 
     //METODOS
