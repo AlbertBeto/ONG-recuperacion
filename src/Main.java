@@ -18,7 +18,8 @@ public class Main {
         System.out.println(elPrimero.getCp());
         System.out.println(elPrimero.getBirthday());
 
-
+DonationManager lo = new DonationManager();
+lo.verifyDonation(laPrimera,elPrimero);
 
     }
 }

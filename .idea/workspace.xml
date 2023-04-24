@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dcacb9e-ce00-4094-91ca-27e8856ea9be" name="Changes" comment="Acabado el primer metodo pero da error el tema Date del birthday.">
+    <list default="true" id="3dcacb9e-ce00-4094-91ca-27e8856ea9be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DonationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
@@ -76,14 +77,22 @@
       <option name="project" value="LOCAL" />
       <updated>1682291749204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="El Date funciona pero al sacar el dato el formato es el USA incluso habiendole cambiado el formato. Lo dejo de momento y voy a intentar avanzar con el punto 4">
+      <created>1682293942917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682293942917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creada la primera parte a falta de hacer el recursivo." />
     <MESSAGE value="Constructo Person creado a la falta de los metodos." />
     <MESSAGE value="Acabado el primer metodo pero da error el tema Date del birthday." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado el primer metodo pero da error el tema Date del birthday." />
+    <MESSAGE value="El Date funciona pero al sacar el dato el formato es el USA incluso habiendole cambiado el formato. Lo dejo de momento y voy a intentar avanzar con el punto 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="El Date funciona pero al sacar el dato el formato es el USA incluso habiendole cambiado el formato. Lo dejo de momento y voy a intentar avanzar con el punto 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

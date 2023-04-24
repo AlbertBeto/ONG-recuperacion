@@ -64,13 +64,13 @@ public class Person {
         // hasta llegar a un length de 5.
         this.cp  = personaDesglosada[6];
 
-        //Vamos a guardar la fecha de cumpleaños como atributo Date.
+        //Vamos a guardar la fecha de cumpleaños como atributo LocalDate.
         //Primero montamos el formato de Date con el que vamos a trabajar.
         DateTimeFormatter formatoEuropa = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
         //Le doy valor a birthday con el formato preestablecido y convirtiendo el String en LocalDate.
         //EEEEEEEEEEEERRRRRRRRRRRRROOOOOOOORRRRRRRRRRRR - IMPRIME EL FORMATO USA
         LocalDate fecha = LocalDate.parse(personaDesglosada[7],formatoEuropa);
+        //Date fechaCumple = (Date)formatoEuropa.parse(personaDesglosada[7]);
            this.birthday  = fecha;
 
         //CONSTRUCTOR
